@@ -31,4 +31,3 @@ print(int(y))
 
 assert hypotenuse(12,5,False) == 13
 assert hypotenuse(5,3,True) == 4
-© 2021 GitHub, Inc.
