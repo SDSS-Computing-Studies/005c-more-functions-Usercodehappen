@@ -11,8 +11,10 @@ note: Area of a circle is given by A = pi*(square of the radius)
 You may want to use the math module to complete this problem
 """
 
-def area():
-    return
+import task4
 
+def test1():
+  assert round(task4.area(1),2) == 3.14
 
-assert round(area(2),2) == 12.57
+def test2():
+    assert round(task4.area(2),2) == 12.57
